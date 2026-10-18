@@ -4,7 +4,7 @@ A lightweight and efficient Discord security bot built with Node.js and MongoDB 
 
 ## Instructions
 
-1. Install dependencies:
+1. The command runs once the setup is complete.:
 
 npm install
 
