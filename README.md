@@ -21,20 +21,29 @@ A lightweight and efficient Discord security bot built with Node.js and MongoDB 
 * Moderate Members (Timeout)
 
 5. Register slash commands:
-
+```bash
 npm run deploy
-
+```
 6. Run the bot:
-
+```bash
 npm start
-
+```
 ## Commands Usage
 
 ### Blacklist Commands
+```bash
 * /bl add <bot_id> <reason> — Add a bot to the blacklist
+```
+```bash
 * /bl remove <bot_id> — Remove a bot from the blacklist
+```
+```bash
 * /bl list — View the blacklist
-
+```
 ### Configuration Commands
+```bash
 * /config set_role <role> — Set the authorized role for creating channels and sending links
+```
+```bash
 * /config set_spam <count> <seconds> <mute_minutes> — Customize anti-spam settings
+```
