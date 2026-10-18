@@ -1,0 +1,21 @@
+discord-bot/
+├── .env
+├── package.json
+├── index.js
+├── deploy-commands.js
+├── config/
+│   └── database.js
+├── models/
+│   ├── Blacklist.js
+│   └── GuildConfig.js
+├── utils/
+│   └── spamTracker.js
+├── commands/
+│   ├── blacklist.js
+│   └── config.js
+└── events/
+    ├── ready.js
+    ├── guildMemberAdd.js
+    ├── messageCreate.js
+    ├── channelCreate.js
+    └── interactionCreate.js
