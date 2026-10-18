@@ -47,3 +47,4 @@ npm start
 ```bash
 * /config set_spam <count> <seconds> <mute_minutes> — Customize anti-spam settings
 ```
+For any issues, contact: https://discord.gg/T7N7Gqy5uF
