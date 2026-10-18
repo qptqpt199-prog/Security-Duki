@@ -6,7 +6,7 @@ A lightweight and efficient Discord security bot built with Node.js and MongoDB 
 
 1. The command runs once the setup is complete.:
 ```bash
-npm install
+npm install.
 
 2. Configure .env file (Bot Token, Client ID, MongoDB URI).
 
