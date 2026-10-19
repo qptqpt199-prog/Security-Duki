@@ -47,5 +47,11 @@ npm start
 ```bash
 * /config set_spam <count> <seconds> <mute_minutes> — Customize anti-spam settings
 ```
+
+### Lưu ý
+Nếu chưa cấu hình MONGO_URI đúng, các lệnh liên quan blacklist/config 
+sẽ không phản hồi được. Vui lòng đảm bảo đã điền đúng chuỗi kết nối 
+MongoDB trong file .env trước khi sử dụng.
+
 # Discord:
 [![Discord](https://img.shields.io/badge/Discord-Join%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/T7N7Gqy5uF)
